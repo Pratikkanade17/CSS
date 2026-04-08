@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#fisrtDiv{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#secondDiv{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(74, 169, 37);
+
+    /* transition: all 2s ease-in-out 1s; */
+    animation: mypage 1s forwards 1s infinite normal;
+
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(60, 58, 58);
+    color: aliceblue;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    
+}
+
+h1{
+    transition: all 1s ease-in 1s;
+    
+
+}
+
+@keyframes mypage{
+    from{background-color:rgb(74, 169, 37) ;}
+    to{background-color:rgb(209, 87, 168);}
+}
+
+h1:hover{
+    font-size: 50px;
+    /* color: pink; */
+}

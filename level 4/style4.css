@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+   
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: cornsilk;
+
+}
+
+#container{
+    height: 600px;
+    width: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+
+
+#box1{
+    background-color: blue;
+    align-self: flex-end;
+}
+
+#box2{
+    background-color: rgb(189, 26, 189);
+    flex-grow: ;
+}
+
+#box3{
+    background-color: rgb(159, 222, 58);
+}
+
+#box4{
+    background-color: rgb(243, 24, 24);
+}
+
+/* media Queries for practice */
+@media(width:600px){
+    div{
+        background-color: chocolate; 
+    }
+}

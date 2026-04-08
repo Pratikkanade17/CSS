@@ -1,0 +1,58 @@
+/* div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+
+} */
+
+/* #box2 {
+    visibility: hidden;
+    display: none;
+} */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    color: aliceblue;
+}
+
+#firstdiv{
+    background-color: black;
+    height: 60px;
+}
+
+button{
+    background-color: #f08804;
+    
+}
+
+#logo{
+    font-size: 25px;
+    color: #f08804;
+}
+
+a{
+    margin-right: 250px;
+}
+
+.myclass{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+#content{
+    height: 600px;
+}
+
+#footer{
+    width: 100%;
+    background-color:black;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+}
+

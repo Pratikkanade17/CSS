@@ -1,0 +1,35 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px double black;
+    display: inline-block;
+}
+
+#second{
+    position: sticky;
+    top: 20px;
+    background-image: url(my.webp);
+    background-size:contain;
+}
+body{
+    background-image: url(my.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+/* #first{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+} */
+
+/* #third{
+    position: fixed;
+} */
+/* 
+#forth{
+    position: sticky;
+    top: 500px;
+    left:20px;
+} */
+
