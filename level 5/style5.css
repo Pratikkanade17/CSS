@@ -2,6 +2,8 @@ div{
     height: 100px;
     width: 100px;
     background-color: rgb(255, 126, 191);
+    border: 10px solid black;
+    border-top: 10px solid rgb(82, 21, 82);
 
     /* transition: all;
     transition-duration: 3s;
